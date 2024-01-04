@@ -1,0 +1,71 @@
+.panel-primary{
+    margin-left: 400px;
+}
+.form-group{
+    text-align: left;
+}
+.panel-heading{
+    padding-bottom: 30px;
+}
+.btn{
+    margin-left: 66px;
+    color: aliceblue;
+    background-color: black;
+}
+body{
+    color: white;
+}
+.container{
+    margin-top: 100px;
+}
+.date-title {
+    margin-top: 100px;
+    text-align: center;
+  }
+  
+  .date-picker {
+    width:100%;
+    position: relative;
+    margin: auto;
+  }
+  
+  .date-picker>input {
+    border: none;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+  }
+  
+  .date-picker>input[type="date"] {
+    top: 0;
+    left: -60px;
+  }
+  
+  .date-picker>input[type="time"] {
+    top: 0px;
+    left: 160px;
+  }
+  .submit-btn {
+    margin: 20px 0 20px 0;
+    margin-top: 100px;
+    
+  }
+  
+  .submit-btn button {
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    border-radius:2px;
+    margin-left: 31px;
+    width: 150px;
+    height: 50px;
+  /*   box-shadow: 0 2px 1em grey; */
+    font-size:20px;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .submit-btn button:active {
+    transform: translate(0px, 2px);
+    -webkit-transform: translate(0px, 2px);
+    box-shadow: 0px 1px 0px 0px;
+  }

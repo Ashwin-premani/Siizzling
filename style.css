@@ -1,0 +1,164 @@
+html {
+  scroll-behavior: smooth;
+} 
+.header{
+
+    background-image: url("Back-img2.jpg");
+    background-size: cover;
+    height: 600px;
+    font-size: larger;
+    font-weight: 600;
+    
+    }
+.navbar{
+    width: 100%;
+
+}
+
+.sizzling{
+  font-size: larger;
+}
+
+
+#logo{
+  width: 40px;
+  float: right;
+  text-decoration: none;
+  color: aliceblue;
+  margin-right: 100px;
+}
+.navbar ul{
+    overflow: auto;
+}
+.nav{
+  margin: 0;
+  width: 50%;
+  float: left;
+  display: flex;
+  padding: 0;
+  align-items: left;
+  justify-content: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+ 
+}
+section{
+  width: 100%;
+  display: flex;
+}
+  .navbar li{
+  
+    list-style: none;
+    margin: 10px 15px;
+    
+  }
+  ul li{
+    color: aliceblue;
+  }
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: aliceblue;
+}
+.center{
+    text-align: center;
+    margin-top: 100px;
+    color: aliceblue;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.center h1{
+    margin: 0%;
+}
+
+.center h2{
+    margin: 0%;
+}
+.center p{
+    margin: 0%;
+}
+
+#logo{
+    float: right;
+    margin-right: 70px;
+}
+
+.menu div{
+    float: left;
+    margin-right: 200px;
+}
+.dish-1{
+    margin-left: 250px;
+}
+
+.menu{
+    margin-top: 50px;
+}
+.menu p{
+    text-align: center;
+}
+
+
+.locations{
+  text-align: center;
+}
+.to-top{
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  text-decoration: none;
+  color: black;
+}
+/* .info-rest{
+  width: 400px;
+  height: 400px;
+  float: left;
+}
+rest-info{
+  text-align: center;
+  margin: 20px;
+} */
+
+footer {
+  background-color: black;
+  color: aliceblue;
+  
+    .restaurant-info {
+      padding:20px 80px;
+      flex-direction:row;
+      justify-content:space-around;
+      .locations {
+        display:block;
+        justify-content:space-between;
+        flex-wrap:wrap;
+        
+        h4 {
+          flex:1 0 100%;
+        }
+    
+      }
+      .hours {
+        display:flex;
+        justify-content:space-between;
+        flex-wrap:wrap;
+        h4 {
+          flex:1 0 100%;
+        }
+      }
+    }
+    /* .copyright {
+      flex-direction:row;
+      justify-content:space-around;
+    } */
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+  }
+  .Contact-us a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    
+  }
